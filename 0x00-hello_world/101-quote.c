@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	write(0, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	write(0, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 0);
 
 	return (1);
 }

@@ -5,8 +5,8 @@
 
 #include "main.h"
 /**
- * if the function is_lowercase c is lowercase or c is otherwise. 
- */
+*The function is_lowercase c is lowercase or c is otherwise. 
+*/
 
 int _islower(int c)
 {

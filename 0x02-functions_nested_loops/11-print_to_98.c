@@ -14,14 +14,14 @@ void print_times_table(int n)
         if (n >= 98)
         {
                 while (n > 98)
-                        _putchar("%c, ", n--);
-                _putchar("%c\n", n);
+                        _putchar(n--);
+                _putchar(n);
         }
 
         else
         {
                 while (n < 98)
-                _putchar("%c, ", n++);
-                _putchar("%c\n", n);
+                _putchar(n++);
+                _putchar(n);
         }
 }

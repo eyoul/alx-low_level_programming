@@ -1,4 +1,4 @@
-/**
+/*
  * File: 1-alphabet.c
  *
  * Auth: Eyoul Shimeles
@@ -7,9 +7,7 @@
 #include "main.h"
 
 /**
- * main -  prints the alphabet, in lowercase
- *
- * Return: Always return 0.
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
 void print_alphabet(void)
 {

@@ -1,5 +1,5 @@
 /*
-*File: 2-print_alphabet_x10.c
+*File: 10 x alphabet
 *Auth: Eyoul Shimeles
 */
 

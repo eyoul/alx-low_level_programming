@@ -6,7 +6,7 @@
 #include "main.h"
 /**
 *print_sign -prints the sign of a number.
-*@c: The character to be checked. 
+* @c: The character to be checked. 
 *Return: 1 and prints + if n is greater than zero.
 *Return: 0 and prints 0 if n is zero.
 *Return: -1 and prints - if n is less than zero

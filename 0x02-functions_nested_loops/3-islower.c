@@ -5,7 +5,7 @@
 
 #include "main.h"
 /**
-*The function is_lowercase c is lowercase or c is otherwise.
+*The function is lowercase c is lowercase or c is otherwise.
 *
 */
 

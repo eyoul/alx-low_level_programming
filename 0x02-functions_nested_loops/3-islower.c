@@ -5,8 +5,9 @@
 
 #include "main.h"
 /**
- * checks for lowercase characte - if c = 1 lowercase if c = 0 otherwise 
+ * if the function is_lowercase c is lowercase or c is otherwise. 
  */
+
 int _islower(int c)
 {
 	if (c >= 97 && c <=122)

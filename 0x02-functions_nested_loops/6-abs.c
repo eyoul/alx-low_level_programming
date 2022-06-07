@@ -11,7 +11,7 @@
  *
  * Return: The absolute value of the integer.
  */
-int _abs(int);
+int _abs(int)
 {
 	int n;
 	if (n >= 0)

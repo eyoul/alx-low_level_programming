@@ -11,17 +11,18 @@
  */
 void print_times_table(int n)
 {
-	if (n >= 98)
-	{
-		while (n > 98)
-			_putchar("%d, ", n--);
-		_putchar("%d\n", n);
-	}
+        if (n >= 98)
+        {
+                while (n > 98)
+                        _putchar("%d, ", n--);
+                _putchar("%d\n", n);
+        }
 
-	else
-	{
-		while (n < 98)
-		_putchar("%d, ", n++);
-		_putchar("%d\n", n);
-	}
+        else
+        {
+                while (n < 98)
+                _putchar("%d, ", n++);
+                _putchar("%d\n", n);
+        }
 }
+

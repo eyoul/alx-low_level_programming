@@ -14,14 +14,14 @@ void print_times_table(int n)
 	if (n >= 98)
 	{
 		while (n > 98)
-			printf("%d, ", n--);
-		printf("%d\n", n);
+			_putchar("%d, ", n--);
+		_putchar("%d\n", n);
 	}
 
 	else
 	{
 		while (n < 98)
-			printf("%d, ", n++);
-		printf("%d\n", n);
+		_putchar("%d, ", n++);
+		_putchar("%d\n", n);
 	}
 }

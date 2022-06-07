@@ -1,5 +1,5 @@
 /*
-*File: 10 x alphabet
+*File: alphabet ten times
 *Auth: Eyoul Shimeles
 */
 

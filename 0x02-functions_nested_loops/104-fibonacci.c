@@ -10,9 +10,8 @@ int main(void)
 	int a = 1, b = 2, next = 0;
 	int sum = 1;
 
-	while (next > sum)
+	while (next = a + b)
 	{
-		next = a + b;
 		a = b;
 		b = next;
 		if (next % 2 == 1)

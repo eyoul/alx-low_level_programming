@@ -12,7 +12,7 @@ int main(void)
 
 	while (next > 98)
 	{
-		next = a + b
+		next = a + b;
 		a = b;
 		b = next;
 		if (next % 2 == 1)

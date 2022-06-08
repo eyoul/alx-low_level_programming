@@ -10,7 +10,7 @@ int main(void)
 	int a = 0, b = 1, next = 0;
 	int sum = 0;
 
-	while (next < 22)
+	while (next < 2)
 	{
 		next = a + b;
 		a = b;

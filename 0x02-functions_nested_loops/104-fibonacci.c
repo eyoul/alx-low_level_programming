@@ -1,23 +1,45 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: computes and prints even  number < 4,000,000
- * 5 below 1024 (excluded), followed by a new line
- * Return: 0
- */
+  * main - print the first 98 fibonacci numbers.
+  * Return: Nothing.
+  */
 int main(void)
 {
-	int a = 1, b = 2, next = 0;
-	int sum = 1;
+	int count;
+	unsigned long i, j, k;
+	unsigned long m, n, p, carry;
 
-	while (next > 98)
+	count = 0;
+	i = 0;
+	j = 1;
+	for (count = 1; count <= 91; count++)
 	{
-		next = a + b;
-		a = b;
-		b = next;
-		if (next % 2 == 1)
-			sum += next;
+		k = i + j;
+		i = j;
+		j = k;
+		printf("%lu, ", k);
 	}
-	printf("%i\n", sum);
+	m = i % 1000;
+	i = i / 1000;
+	n = j % 1000;
+	j = j / 1000;
+	while (count <= 98)
+	{
+		carry = (m + n) / 1000;
+		p = (m + n) - carry * 1000;
+		k = (i + j) + carry;
+		m = n;
+		n = p;
+		i = j;
+		j = k;
+		if (p >= 100)
+			printf("%lu%lu", k, p);
+		else
+			printf("%lu0%lu", k, p);
+		if (count != 98)
+			printf(", ");
+		count++;
+	}
+	putchar('\n');
 	return (0);
 }

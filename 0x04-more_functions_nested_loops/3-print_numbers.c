@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _putchar - putchar 0123456789
- * @c: char
- *
+ * Print - print number 0123456789
+ * 
  * Return: void
  */
 

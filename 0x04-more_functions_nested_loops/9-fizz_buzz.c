@@ -12,21 +12,23 @@
 
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 1; i <= 100; i++)
+	for (n = 1; n <= 100; n++)
 	{
-		if ((i % 15 == 0))
-			printf("FizzBuzz\t");
-		else if (i % 3 == 0)
-				printf("Fizz\t");
-		else if (i % 5 == 0)
-				printf("Buzz\t");
-			else
-				printf("%i", i);
-			if (i < 100)
-				printf(" ");
+	if ((n % 3 == 0) && (n % 5 == 0))
+			printf("FizzBuzz");
+		else if (n % 5 == 0)
+			printf("Buzz");
+		else if (n % 3 == 0)
+			printf("Fizz");
+		else
+			printf("%i", n);
+
+		if (n < 100)
+			printf(" ");
+		else
+			printf("\n");
 	}
-	printf("\n")
 	return (0);
 }

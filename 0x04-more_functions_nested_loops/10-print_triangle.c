@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_triangle - entry point
  *

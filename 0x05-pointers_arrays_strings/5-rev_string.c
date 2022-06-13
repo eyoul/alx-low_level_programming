@@ -19,7 +19,7 @@ void rev_string(char *s)
 	x = 0;
 	y = len - 1;
 
-	while (i < j)
+	while (x < y)
 	{
 		tempo = s[x];
 		s[x] = s[y];

@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_number - function with one argument
  * @n: int type argument

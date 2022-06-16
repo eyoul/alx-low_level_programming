@@ -2,22 +2,26 @@
 
 /**
   * string_toupper - Changes all lowercase letters to uppercase
-  * 
-  * Return: char var 
+  *
+  * @str: String to return
+  *
+  * Return: String
   */
 
-char *string_toupper(char *)
-{
-	int a = 0;
-
-	while (p[a])
+	char *string_toupper(char *)
 	{
-		if (p[a] >= 97 && p[a] <= 122)
+	
+		int i;
+
+		for (i = 0;str[i] != '\0'; i++)
 		{
-			p[a] -= 32;
-		}
-			a++;
+		
+			if (str[i] >= 97 && str[i] <= 122)
+			{
+				str[i] = str[i] - 32;
+			}
 
 	}
-	return (p);
+
+	return (str);
 }

@@ -6,22 +6,30 @@
  *
  * Return: the char value
  */
-	char *cap_string(char *p)
-	{
-	int a = 0, i;
-	int b = 13;
-	char c[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+char *cap_string(char *str)
+{
+	int i;
+	int j;
+	char c[] = {44, 59, 46, 33, 63, 34, 40, 41, 123, 125, 32, 10, 9};
 
-	while (p[a])
+	i = 0;
+
+	while (str[i] != '\0')
 	{
-		i = 0;
-		while (i < b)
+		if (i == 0 && str[i] >= 97 && str[i] <= 122)
 		{
-		if ((a == 0 || p[a - 1] == c[i]) && (p[a] >= 97 && p[a] <= 122))
-			p[a] = p[i] - 32;
-		i++;
+			str[i] = str[i] - 32;
 		}
-	a++;
+		j = 0;
+		while (c[j] != '\0')
+		{
+			if (c[j] == str[i] && (str[i + 1] >= 97 && str[i + 1] <= 122))
+			{
+				str[i + 1] = str[i + 1] - 32;
+			}
+			j++;
+		}
+		i++;
 	}
-	return (p);
-	}
+	return (str);
+}

@@ -6,13 +6,13 @@
  *
  * Return: the char value
  */
-char *cap_string(char *p)
-{
+	char *cap_string(char *p)
+	{
 	int a = 0, i;
 	int b = 13;
 	char c[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	while (s[a])
+	while (p[a])
 	{
 		i = 0;
 		while (i < b)
@@ -24,4 +24,4 @@ char *cap_string(char *p)
 	a++;
 	}
 	return (p);
-}
+	}

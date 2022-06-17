@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_buffer - print a buffer
@@ -40,3 +39,4 @@ void print_buffer(char *b, int size)
 	}
 	if (size <= 0)
 		printf("\n");
+}

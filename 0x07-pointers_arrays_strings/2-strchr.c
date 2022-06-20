@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strchr - locates a character in a string
@@ -8,7 +7,7 @@
  *
  * @s: in the string
  *
- * @NULL: if the character is not found 
+ * @NULL: if the character is not found
  *
  * Return: a pointer to the first occurrence of the character
  */

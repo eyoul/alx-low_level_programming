@@ -28,4 +28,3 @@ int _sqrt_recursion(int n)
 		return (n);
 	return (find_root(n, 2));
 }
-    

@@ -8,10 +8,8 @@
  * @x: is the numebr to be incremented
  * Return: the 0 value
  */
-
 int _pow_recursion(int x, int y)
 {
-
 	int result = x;
 
 	if (y < 0)
@@ -20,7 +18,7 @@ int _pow_recursion(int x, int y)
 	else if (y == 0)
 		return (1);
 
-		result *= _pow_recursion(x, y - 1);
+	result *= _pow_recursion(x, y - 1);
 
 	return (result);
 }

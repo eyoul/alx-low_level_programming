@@ -26,6 +26,6 @@ int _sqrt_recursion(int n)
 		return (-1);
 	if (n == 0 || n == 1)
 		return (n);
-		return (find_root(n, 2));
+	return (find_root(n, 2));
 }
     

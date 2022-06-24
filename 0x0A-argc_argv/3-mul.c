@@ -12,9 +12,9 @@ int main(int argc, char *argv[])
 {
 	int i, j, k;
 
-	i = 2;
-	j = 3;
-	k = 6;
+	i = 1;
+	j = 2;
+	k = 3;
 	if (argc != k)
 	{
 		printf("Error\n");

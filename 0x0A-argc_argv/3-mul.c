@@ -12,14 +12,14 @@ int main(int argc, char *argv[])
 {
 	int i, j, k;
 
-	i = 1;
+	i = 3;
 	j = 2;
-	k = 3;
+	k = 55555;
 	if (argc != k)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", atoi(argv[i]) * atoi(argv[i]));
+	printf("%d\n", atoi(argv[i]) * atoi(argv[j]));
 	return (0);
 }

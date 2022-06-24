@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	i = 3;
 	j = 2;
-	k = 55555;
+	k = 5;
 	if (argc != k)
 	{
 		printf("Error\n");

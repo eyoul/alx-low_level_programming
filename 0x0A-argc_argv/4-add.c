@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * main - adds positive numbers
  * @argc: argument counter
@@ -10,24 +9,23 @@
  */
 int main(int argc, char *argv[])
 {
-	int k = 0, i, j;
+	int i, j, sum = 0;
 
-	for (i = 0; i < argc; ++i)
+	if (argc < 1)
+		printf("0\n");
+
+	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; argv[i][j]; ++j)
+		for (j = 0; argv[i][j]; j++)
 		{
-			if (isdigit(argv[i][j]) == 0)
-				{
-					puts("Error");
-					return (1);
-				}
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
+		sum += atoi(argv[i]);
 	}
-
-	for (i = 0; i < argc; ++i)
-	{
-		k += atoi(argv[i]);
-	}
-	printf("%d\n", k);
+	printf("%d\n", sum);
 	return (0);
 }

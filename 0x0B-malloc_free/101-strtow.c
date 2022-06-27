@@ -57,13 +57,13 @@ char **strtow(char *str)
 			j--;
 			if (q[qa] == NULL)
 			{
-			for (k = 0; k < qa; k++)
+				for (k = 0; k < qa; k++)
 					free(q[k]);
 				free(q[n - 1]);
 					free(q);
 				return (NULL);
 			}
-		for (l = 0; l < j; l++)
+			for (l = 0; l < j; l++)
 				q[qa][l] = str[i + l];
 			q[qa][l] = '\0';
 				qa++;

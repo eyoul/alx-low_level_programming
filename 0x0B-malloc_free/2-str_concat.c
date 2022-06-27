@@ -38,10 +38,11 @@ char *str_concat(char *s1, char *s2)
 	s = malloc(q * sizeof(char));
 	if (s == NULL)
 		return (NULL);
+
 	for (r = 0; r < i; ++r)
-			s[r] = s1[r];
+		s[r] = s1[r];
 	for  (r = 0; r < j; ++r)
-			s[r + i] = s2[r];
+		s[r + i] = s2[r];
 	s[i + j] = '\0';
 	return (s);
 }

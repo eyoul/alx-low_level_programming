@@ -38,10 +38,10 @@ char **strtow(char *str)
 
 	if (str == NULL || *str == '\0')
 		return (NULL);
-		n = wrdcnt(str);
+	n = wrdcnt(str);
 	if (n == 1)
 		return (NULL);
-		q = (char **)malloc(n * sizeof(char *));
+	q = (char **)malloc(n * sizeof(char *));
 	if (q == NULL)
 	return (NULL);
 		q[n - 1] = NULL;
@@ -57,13 +57,13 @@ char **strtow(char *str)
 			j--;
 			if (q[qa] == NULL)
 			{
-				for (k = 0; k < qa; k++)
+			for (k = 0; k < qa; k++)
 					free(q[k]);
-					free(q[n - 1]);
+				free(q[n - 1]);
 					free(q);
 				return (NULL);
 			}
-			for (l = 0; l < j; l++)
+		for (l = 0; l < j; l++)
 				q[qa][l] = str[i + l];
 				q[qa][l] = '\0';
 				qa++;

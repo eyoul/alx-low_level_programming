@@ -1,4 +1,5 @@
 #include "main.h"
+
 void _print(char *str, int l);
 char *mul(char n, char *num, int num_index, char *dest, int dest_index);
 int check_for_digits(char **av);
@@ -42,8 +43,8 @@ int main(int argc, char *argv[])
 		t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
 		if (t == NULL)
 		{
-		for (ti = 0; e[ti]; ti++)
-			_putchar(e[ti]);
+			for (ti = 0; e[ti]; ti++)
+				_putchar(e[ti]);
 			free(a);
 			exit(98);
 		}
@@ -125,7 +126,7 @@ int check_for_digits(char **av)
 	{
 		for (j = 0; av[i][j]; j++)
 		{
-		if (av[i][j] < '0' || av[i][j] > '9')
+			if (av[i][j] < '0' || av[i][j] > '9')
 			return (1);
 		}
 	}

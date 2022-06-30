@@ -42,8 +42,8 @@ int main(int argc, char *argv[])
 		t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
 		if (t == NULL)
 		{
-			for (ti = 0; e[ti]; ti++)
-				_putchar(e[ti]);
+		for (ti = 0; e[ti]; ti++)
+			_putchar(e[ti]);
 			free(a);
 			exit(98);
 		}
@@ -125,8 +125,8 @@ int check_for_digits(char **av)
 	{
 		for (j = 0; av[i][j]; j++)
 		{
-			if (av[i][j] < '0' || av[i][j] > '9')
-				return (1);
+		if (av[i][j] < '0' || av[i][j] > '9')
+			return (1);
 		}
 	}
 	return (0);

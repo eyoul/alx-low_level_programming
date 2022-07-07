@@ -1,57 +1,56 @@
 #include "variadic_functions.h"
 
 /**
- * print_c - print char
- * @c: char parameter
+ * print_c - print a char
+ * @c: char to print
  *
  * Return: void
  */
 void print_c(va_list c)
 {
-	printf("%c", va_arg(c, char));
+	printf("%c", va_arg(c, int));
 }
+
 /**
- * print_i - print int
- * @i: int
+ * print_s - prints a string
+ * @s: string to print
  *
  * Return: void
  */
+void print_s(va_list s)
+{
+	char *str = va_arg(s, char *);
 
+	if (str == NULL)
+		str = "(nil)";
+	printf("%s", str);
+}
+
+/**
+ * print_i - prints an int
+ * @i: int to print
+ *
+ * Return: void
+ */
 void print_i(va_list i)
 {
 	printf("%d", va_arg(i, int));
 }
+
 /**
- * print_f - print float
- * @f: float parameter
+ * print_f - prints a float
+ * @f: float to print
  *
  * Return: void
  */
-
 void print_f(va_list f)
 {
-	printf("%f", va_arg(f, float));
-}
-/**
- * print_s - print string
- * @s: string parameter
- *
- * Return: void
- */
-
-void print_s(va_list s)
-{
-	char *str = va_arg(s, char*);
-
-	if (str == NULL)
-		str = "(nil)";
-	printf("%s" str);
+	printf("%f", va_arg(f, double));
 }
 
 /**
- * print_all - a function that prints anything.
- *
- * @format: list of types of arguments passed to the function
+ * print_all - prints anything
+ * @format: list of argument types passed to the function
  *
  * Return: void
  */

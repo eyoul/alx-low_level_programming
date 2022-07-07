@@ -12,7 +12,7 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	int *str;
+	char *str;
 	va_list pa;
 
 	va_start(pa, n);

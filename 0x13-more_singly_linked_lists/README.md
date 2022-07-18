@@ -1,7 +1,6 @@
 <h1>0x13. C - More singly linked lists</h1>
 <h2>Mandatory</h2>
 <h2>0. Print list</h2>
-**[0-print_listint.c](0-print_listint.c)**
 <p>Write a function that prints all the elements of a listint_t list.
 	<li> Prototype: size_t print_listint(const listint_t *h);</li>
 	<li>Return: the number of nodes</li>
@@ -9,12 +8,10 @@
 	<li>You are allowed to use printf</li>
 </p>
 <h2>1. List length</h2>
-**[1-listint_len.c](1-listint_len.c)**
 <p>Write a function that returns the number of elements in a linked listint_t list.
 	<li>Prototype: size_t listint_len(const listint_t *h);</li>
 </p>
 <h2>2. Add node</h2>
-**[2-add_nodeint.c](2-add_nodeint.c)**
 <p>Write a function that adds a new node at the beginning of a listint_t list.
 	<li>Prototype: listint_t *add_nodeint(listint_t **head, const int n);</li>
 	<li>Return: the address of the new element, or NULL if it failed</li>
@@ -27,36 +24,30 @@
 <li>Return: the address of the new element, or NULL if it failed</li>
 </p>
 <h2>4. Free list</h2>
-**[4-free_listint.c](4-free_listint.c)**
 <p>Write a function that frees a listint_t list.
 	<li>Prototype: void free_listint(listint_t *head);</li>
 </p>
 <h2>5. Free</h2>
-**[5-free_listint2.c](5-free_listint2.c)**
 <p>Write a function that frees a listint_t list.
 	<li>Prototype: void free_listint2(listint_t **head);</li>
 	<li>The function sets the head to NULL</li>
 </p>
 <h2>6. Pop</h2>
-**[6-pop_listint.c](6-pop_listint.c)**
 <p>Write a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
 <li>Prototype: int pop_listint(listint_t **head);</li>
 <li>if the linked list is empty return 0</li>
 </p>
 <h2>7. Get node at index</h2>
-**[7-get_nodeint.c](7-get_nodeint.c)**
 <p>Write a function that returns the nth node of a listint_t linked list.
 	<li>Prototype: listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);</li>
 	<li>where index is the index of the node, starting at 0</li>
 	<li>if the node does not exist, return NULL</li>
 </p>
 <h2>8. Sum list</h2>
-**[8-sum_listint.c](8-sum_listint.c)**
 <p>Write a function that returns the sum of all the data (n) of a listint_t linked list.
 	<li>Prototype: int sum_listint(listint_t *head);</li>
 	<li>f the list is empty, return 0</li>
 <h2>9. Insert</h2>
-**[9-insert_nodeint.c](9-insert_nodeint.c)**
 <p>Write a function that inserts a new node at a given position.
 	<li>Prototype: listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);</li>
 	<li>where idx is the index of the list where the new node should be added. Index starts at 0</li>
@@ -64,7 +55,6 @@
 	<li>if it is not possible to add the new node at index idx, do not add the new node and return NULL</li>
 </p>
 <h2>10. Delete at index</h2>
-**[10-delete_nodeint.c](10-delete_nodeint.c)**
 <p>Write a function that deletes the node at index index of a listint_t linked list.
 	<li>Prototype: int delete_nodeint_at_index(listint_t **head, unsigned int index);</li>
 	<li>where index is the index of the node that should be deleted. Index starts at 0</li>
@@ -72,7 +62,6 @@
 </p>
 <h2>Advanced</h2>
 <h2>11. Reverse list</h2>
-**[100-reverse_listint.c](100-reverse_listint.c)**
 <p>Write a function that reverses a listint_t linked list.
 	<li>Prototype: listint_t *reverse_listint(listint_t **head);</li>
 	<li>Returns: a pointer to the first node of the reversed list</li>
@@ -82,7 +71,6 @@
 
 </p>
 <h2>12. Print (safe version)</h2>
-**[101-print_listint_safe.c](101-print_listint_safe.c)**
 <p>Write a function that prints a listint_t linked list.
 	<li>Prototype: size_t print_listint_safe(const listint_t *head);</li>
 	<li>Returns: the number of nodes in the list</li>
@@ -93,7 +81,6 @@
 	
 </p>
 <h2>13. Free (safe version)</h2>
-**[102-free_listint_safe.c](102-free_listint_safe.c)**
 <p>Write a function that frees a listint_t list.
 	<li>Prototype: size_t free_listint_safe(listint_t **h);</li>
 	<li>This function can free lists with a loop</li>
@@ -102,7 +89,6 @@
 	<li>The function sets the head to NULL</li>
 </p>
 <h2>14. Find the loop</h2>
-**[103-find_loop.c](103-find_loop.c)**
 <p>Write a function that finds the loop in a linked list.
 	<li>Prototype: listint_t *find_listint_loop(listint_t *head);</li>
 	<li>Returns: The address of the node where the loop starts, or NULL if there is no loop</li>

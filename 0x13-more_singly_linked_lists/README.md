@@ -1,14 +1,11 @@
-0x13. C - More singly linked lists
-0. Print list
-mandatory
-Write a function that prints all the elements of a listint_t list.
+<h1>0x13. C - More singly linked lists</h1>
+<h2>0. Print list</h2>
+<p>Write a function that prints all the elements of a listint_t list.
+<li> 
+<ul> Prototype: size_t print_listint(const listint_t *h);</ul>
+<ul>Return: the number of nodes</ul>
+<ul>Format: see example</ul>
+<ul>You are allowed to use printf</ul>
+</li>
+</p>
 
-Prototype: size_t print_listint(const listint_t *h);
-Return: the number of nodes
-Format: see example
-You are allowed to use printf
-1. List length
-mandatory
-Write a function that returns the number of elements in a linked listint_t list.
-
-Prototype: size_t listint_len(const listint_t *h);

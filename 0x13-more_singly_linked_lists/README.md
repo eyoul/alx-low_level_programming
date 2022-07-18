@@ -1,4 +1,10 @@
 <h1>0x13. C - More singly linked lists</h1>
+## About
+ALX School's follow-up project on singly linked lists
+## Requirements
+- Ubuntu 14.04
+- gcc 4.8.4
+## File Descriptions
 <h2>Mandatory</h2>
 <h2>0. Print list</h2>
 **[0-print_listint.c](0-print_listint.c)**

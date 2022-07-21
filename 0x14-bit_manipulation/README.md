@@ -23,4 +23,4 @@ An introductory project on:
 ### Advanced
 **[100-get_endianness.c](100-get_endianness.c)** - function that checks the endianness.
 
-**[101-password](101-password)** - finds the password for [this program](https://github.com/ALXSchool/0x13.c) and saves it in a file.
+**[101-password](101-password)** - finds the password for [this program](https://github.com/eyoul) and saves it in a file.

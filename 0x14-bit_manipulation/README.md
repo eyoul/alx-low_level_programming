@@ -3,9 +3,7 @@
 An introductory project on:
 - Bit manipulation
 - Bitwise operators
-## Requirements
-- Ubuntu 14.04
-- gcc 4.8.4
+
 ## File Descriptions
 ### Mandatory
 **[0-binary_to_uint.c](0-binary_to_uint.c)** - function that converts a binary number to an `unsigned int`.

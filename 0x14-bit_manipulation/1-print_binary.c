@@ -5,8 +5,8 @@
  * @pow: power of the exponet
  * Return: value of base and power
  */
- unsigned long int _power(unsigned int base, unsigned int pow)
- {
+unsigned long int _power(unsigned int base, unsigned int pow)
+{
 	unsigned long int num;
 	unsigned int i;
 
@@ -14,19 +14,20 @@
 	for (i = 1; i <= pow; i++)
 		num *= base;
 	return (num);
- }
+}
 /**
- * print_binary -prints the binary representation of a number 
+ * print_binary - prints the binary representation of a number
  * @n: num of prented
  * Return: void
  */
- void print_binary(unsigned long int n)
- {
+void print_binary(unsigned long int n)
+{
 	unsigned long int dev, result;
 	char flag;
 
 	flag = 0;
-	dev = _power(2, sizeof(unsigned long int)* 8 - 1);
+	dev = _power(2, sizeof(unsigned long int) * 8 - 1);
+
 	while (dev != 0)
 	{
 		result = n & dev;
@@ -42,4 +43,4 @@
 		}
 		dev >>= 1;
 	}
- }
+}

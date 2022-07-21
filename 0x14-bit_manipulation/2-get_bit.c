@@ -17,5 +17,6 @@ int get_bit(unsigned long int n, unsigned int index)
 	res = n & div;
 	if (res == div)
 		return (1);
+
 	return (0);
 }

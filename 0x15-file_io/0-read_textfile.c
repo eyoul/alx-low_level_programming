@@ -1,3 +1,7 @@
+/*
+ * File: 0-read_textfile.c
+ * Auth: Eyoul S.
+ */
 #include "main.h"
 #include <stdlib.h>
 

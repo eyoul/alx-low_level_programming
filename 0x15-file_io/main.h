@@ -1,13 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * _strlen - finds the length of a string
- * @str: pointer to the string
- *
- * Return: length of the string
- */
-
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>

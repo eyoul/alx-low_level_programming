@@ -1,9 +1,9 @@
-#include "lists"
+#include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * print_dlistint - all the elements of 
+ * print_dlistint - all the elements of
  * @h: The double linked list to print
  *
  * Return: the number of the node
@@ -19,5 +19,10 @@ size_t print_dlistint(const dlistint_t *h)
 		h = h->next;
 	}
 
+<<<<<<< HEAD
 	return (length);
 }
+=======
+	return (len);
+}
+>>>>>>> 3d07fedb8ac6e7b9c773568235031dccab7194f7

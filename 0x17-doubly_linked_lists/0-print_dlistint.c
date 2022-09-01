@@ -1,9 +1,9 @@
-#include "lists"
+#include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * print_dlistint - all the elements of 
+ * print_dlistint - all the elements of
  * @h: The double linked list to print
  *
  * Return: the number of the node

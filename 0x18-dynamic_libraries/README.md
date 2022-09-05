@@ -17,4 +17,5 @@ An introductory project on:
 
 ### Advanced
 **[100-operations.so](100-operations.so)** - dynamic library that contains C functions that can be called from Python.
-**[101-make_me_win.sh](101-make_me_win.sh)**Our mole also gave us a piece of documentation.
+
+**[101-make_me_win.sh](101-make_me_win.sh)** - Our mole also gave us a piece of documentation.
